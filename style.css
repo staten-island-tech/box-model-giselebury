@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100rem;
+    background-color: rgb(107,255,228);
+    position: relative;
+    text-align: center;
+}
+
+.header-text{
+    position: relative;
+    height: 40rem;
+    width: 40rem;
+    text-transform: uppercase;
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 3rem;
+  
+}
+
+.position{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20rem;
+}
+
+#text{
+    z-index: 2;
+    top: 40%;
+    color: blue;
+}
+
+#texttwo{
+    z-index: 2;
+    top: 170%;
+    color: blueviolet;
+}
+
+#hedge{
+    height: 60rem;
+
+}

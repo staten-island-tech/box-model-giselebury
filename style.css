@@ -27,25 +27,28 @@ html{
 
 .position{
     position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: -45%;
     height: 20rem;
 }
 
 #text{
     z-index: 2;
-    top: 40%;
+    top: 25%;
+    left: 70%;
     color: blue;
 }
 
 #texttwo{
     z-index: 2;
-    top: 160%;
+    top: 140%;
+    left: 20%;
     color: blueviolet;
 }
 
 #hedge{
     height: 60rem;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
 }

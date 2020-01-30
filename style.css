@@ -21,7 +21,7 @@ html{
     font-family: 'Calistoga', cursive;
     text-align: center;
     margin: 0 auto;
-    letter-spacing: 3rem;
+    letter-spacing: 2rem;
   
 }
 
@@ -50,5 +50,4 @@ html{
     height: 60rem;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-
 }
